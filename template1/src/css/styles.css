@@ -1,0 +1,111 @@
+body, html{
+  font-family: sans-serif;
+  margin: 0;
+}
+.mybutton{
+  padding: 20px;
+  color: white;
+  background-color:#30383c;
+  border-bottom: 0.5px solid black;
+  text-transform: uppercase;
+  text-align: right;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 100%);
+}
+.mybutton a{
+  color: #FFFFFF;
+  display: block;
+}
+.mybutton:hover{
+  background-color:#25b0af;
+}
+.col-lg-2, .col-lg-10{
+  padding: 0;
+}
+.header{
+  background-color: #FFFFFF;
+  color: #364048;
+  font-size: 50px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid black;
+}
+.mycontent-comic{
+   background: red url('comic.png');
+   background-size: contain;
+   height:100%;
+   width:100%;
+}
+.mylist{
+  border: 0;
+  padding: 20px;
+  color: #ffffff;
+  background-color:#30383c;
+  border-bottom: 0.5px solid black;
+  text-align: right;
+  font-size: 10px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(255, 255, 255, 0.02) 100%);
+}
+.mylist a {
+  color: #FFFFFF;
+  display: block;
+}
+.list-group-item{
+  color: #6b7072;
+  padding: 5px;
+  padding-right: 20px;
+  font-size: 12px;
+  background-color:#30383c;
+  border:0;
+}
+.list-group-item a{
+  color: #6b7072;
+}
+.filter{
+  padding: 20px;
+  text-align: right;
+  background-color:#30383c;
+  font-size: 20px;
+  border-bottom: 0;
+  color:#1ab5b3;
+}
+.filter a{
+  color: #1ab5b3;
+}
+.filter img{
+  margin-left: 10px;
+  float: right;
+  width: 30px;
+  height: 30px;
+}
+.list-top{
+  color: white;
+  padding-top: 0;
+}
+.list-bottom{
+  padding-bottom: 0;
+}
+.myshadow{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(200, 200, 200, 0.5) 100%);
+  position: absolute;
+  height: 100%;
+  width: 10px;
+}
+.footerr{
+  padding-right: 20px;
+  text-align: right;
+  border: 0;
+  background-color: #30383c;
+}
+.footer-img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20px;
+  height: 20px;
+}
+.rules{
+  text-align: right;
+  font-size: 10px;
+  background-color:#30383c;
+  color: #6b7072;
+  padding-right: 20px;
+}
