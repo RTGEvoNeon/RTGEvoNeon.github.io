@@ -330,9 +330,6 @@ body {
 }
 /* 5 */
 @media (max-width: 340px) {
-  body {
-    background-color: red;
-  }
   .button {
     font-size: 0;
   }
