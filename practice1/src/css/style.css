@@ -213,16 +213,16 @@ section {
   display: block;
   margin: 0 auto;
 }
-.slick-active {
-  outline: none;
+/* .slick-active {
+   outline: none;
 }
 .slick-arrow {
-  background: #1a1820;
-  height: 4rem;
-}
-.slick-arrow:hover {
-  background: #1a1820;
-}
+   background: @color-text;
+   height: 4rem;
+   &:hover {
+      background: @color-text;
+   }
+} */
 .popup {
   display: none;
   position: fixed;
@@ -460,5 +460,17 @@ section {
 @media (max-width: 560px) {
   .main {
     text-align: center;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .features-next-btn {
+    top: 100%;
+  }
+  .features-prev-btn {
+    top: 100%;
   }
 }

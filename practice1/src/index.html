@@ -272,7 +272,7 @@
                </div>
                <div class="feedback-slider_item">
                   <div class="row">
-                     <div class="col-md-6">
+                     <div class="col-xl-6 col-12">
                         <div class="fotorama" data-nav="thumbs">
                            <img src="img/slider/1.jpg" alt="" />
                            <img src="img/slider/2.jpeg" alt="" />
@@ -282,7 +282,7 @@
                            <img src="img/slider/6.jpg" alt="" />
                         </div>
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-xl-6 col-12">
                         <div class="text">
                            <p>Объект: <strong>г.Москва, Нахимовский проспект д.10</strong></p>
                            <p>Площадь: <strong>357 м2</strong></p>
@@ -313,7 +313,7 @@
                </div>
                <div class="feedback-slider_item">
                   <div class="row">
-                     <div class="col-md-6">
+                     <div class="col-xl-6 col-12">
                         <div class="fotorama" data-nav="thumbs">
                            <img src="img/slider/1.jpg" alt="" />
                            <img src="img/slider/2.jpeg" alt="" />
@@ -323,7 +323,7 @@
                            <img src="img/slider/6.jpg" alt="" />
                         </div>
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-xl-6 col-12">
                         <div class="text">
                            <p>Объект: <strong>г.Москва, Нахимовский проспект д.10</strong></p>
                            <p>Площадь: <strong>357 м2</strong></p>
@@ -380,6 +380,10 @@
                   '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="img/arrowL.svg"></button>',
             });
             $(".features-slider").slick({
+               prevArrow:
+                  '<button type="button" class="feedback-slider-btn feedback-prev-btn features-prev-btn"><img src="img/arrowR.svg"></button>',
+               nextArrow:
+                  '<button type="button" class="feedback-slider-btn feedback-next-btn features-next-btn"><img src="img/arrowL.svg"></button>',
                infinite: true,
                slidesToShow: 4,
                slidesToScroll: 1,
