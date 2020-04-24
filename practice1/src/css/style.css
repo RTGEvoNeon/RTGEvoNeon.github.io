@@ -213,6 +213,15 @@ section {
   display: block;
   margin: 0 auto;
 }
+.features::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(255, 236, 236, 0.5);
+}
 /* .slick-active {
    outline: none;
 }
@@ -265,7 +274,7 @@ section {
   height: 2rem;
 }
 .price {
-  background: #286b0a url(../img/canvas.png) center;
+  /* background: @color-bg-dark url(../img/canvas.png) center; */
 }
 .price .section-header {
   color: #ffffff;
@@ -359,8 +368,8 @@ section {
   color: green;
 }
 .feedback {
-  background: url("../img/back.png") no-repeat center;
-  background-size: cover;
+  /*  background: url("../img/back.png") no-repeat center;
+   background-size: cover; */
 }
 .feedback-prev-btn {
   left: -5rem;
